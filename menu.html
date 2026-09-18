@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bean & Bite | القائمة</title>
+
+    <link rel="stylesheet"
+          href="css/bootstrap.rtl.min.css">
+
+    <link rel="stylesheet"
+          href="css/vendor/fontawesome-local.css">
+
+    <link rel="stylesheet" href="css/vendor/toastify.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/vendor/modal-theme.css">
+
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/vendor/toastify.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark cafe-navbar">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fa fa-coffee"></i>
+                Bean & Bite
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">القائمة</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">من نحن</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">العروض</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="login.html"
+                       class="btn btn-outline-light btn-sm">
+                        تسجيل الدخول
+                    </a>
+
+                    <a href="register.html"
+                       class="btn btn-light btn-sm">
+                        إنشاء حساب
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container my-5">
+
+    <h1 class="page-title">قائمة المقهى</h1>
+
+    <section class="menu-section">
+        <h2>المشروبات</h2>
+
+        <div class="menu-grid">
+
+            <article class="menu-item">
+                <img src="images/images (5).jpg" alt="قهوة أمريكية">
+                <h3>قهوة أمريكية</h3>
+                <p>قهوة سوداء غنية ومركزة.</p>
+                <strong>12 ريال</strong>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/22.jpg" alt="لاتيه">
+                <h3>لاتيه</h3>
+                <p>إسبريسو مع الحليب والرغوة.</p>
+                <strong>16 ريال</strong>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/images (6).jpg" alt="كابتشينو">
+                <h3>كابتشينو</h3>
+                <p>قهوة إيطالية بطبقة رغوة ناعمة.</p>
+                <strong>17 ريال</strong>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="menu-section mt-5">
+        <h2>الوجبات الخفيفة</h2>
+
+        <div class="menu-grid">
+
+            <article class="menu-item">
+                <img src="images/images (4).jpg"
+                     alt="ساندويتش دجاج">
+                <h3>ساندويتش دجاج</h3>
+                <p>دجاج مشوي مع الخضروات والصوص.</p>
+                <strong>22 ريال</strong>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/images (7).jpg"
+                     alt="تشيز كيك">
+                <h3>تشيز كيك</h3>
+                <p>تشيز كيك بالفراولة.</p>
+                <strong>18 ريال</strong>
+            </article>
+
+            <article class="menu-item">
+                <img src="images/images (8).jpg"
+                     alt="براوني">
+                <h3>براوني</h3>
+                <p>قطعة براوني بالشوكولاتة.</p>
+                <strong>14 ريال</strong>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="menu-price-section mt-5" aria-labelledby="price-table-title">
+        <h2 id="price-table-title">جدول الأسعار</h2>
+
+        <div class="table-responsive">
+            <table class="menu-price-table">
+                <thead>
+                    <tr>
+                        <th scope="col">المنتج</th>
+                        <th scope="col">النوع</th>
+                        <th scope="col">السعر</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>قهوة أمريكية</td>
+                        <td>مشروبات ساخنة</td>
+                        <td>12 ريال</td>
+                    </tr>
+                    <tr>
+                        <td>لاتيه</td>
+                        <td>مشروبات ساخنة</td>
+                        <td>16 ريال</td>
+                    </tr>
+                    <tr>
+                        <td>كابتشينو</td>
+                        <td>مشروبات ساخنة</td>
+                        <td>17 ريال</td>
+                    </tr>
+                    <tr>
+                        <td>ساندويتش دجاج</td>
+                        <td>وجبات خفيفة</td>
+                        <td>22 ريال</td>
+                    </tr>
+                    <tr>
+                        <td>تشيز كيك</td>
+                        <td>حلويات</td>
+                        <td>18 ريال</td>
+                    </tr>
+                    <tr>
+                        <td>براوني</td>
+                        <td>حلويات</td>
+                        <td>14 ريال</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <div class="text-center mt-5">
+        <button class="btn main-btn"
+                onclick="loadMenuModal()">
+            معلومات الحساسية الغذائية
+        </button>
+    </div>
+
+</main>
+
+<footer class="cafe-footer">
+    <div class="container text-center">
+
+        <div class="social-links">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-snapchat"></i></a>
+            <a href="mailto:info@beanbite.com">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </div>
+
+        <p>
+            جميع الحقوق محفوظة © 2026 Bean & Bite Café
+        </p>
+    </div>
+</footer>
+
+<div class="modal fade" id="menuModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="bean-bite-modal modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    معلومات الحساسية الغذائية
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+            </div>
+
+            <div class="modal-body" id="menuModalContent">
+                جاري تحميل المعلومات...
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="toastBox"></div>
+
+
+
+</body>
+</html>

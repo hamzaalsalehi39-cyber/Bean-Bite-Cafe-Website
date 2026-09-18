@@ -1,0 +1,74 @@
+@font-face{
+    font-family:'FontAwesome';
+    src:url('../../webfonts/fontawesome-webfont.woff2') 
+    format('woff2'),
+    url('../../webfonts/fontawesome-webfont.woff') 
+    format('woff');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap
+}
+.fa{
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased
+}
+.fa::before{
+    display:inline-block
+}
+.fa-coffee::before{
+    content:"\f0f4"
+}
+.fa-clock-o::before{
+    content:"\f017"
+}
+.fa-envelope::before{
+    content:"\f0e0"
+}
+.fa-facebook::before{
+    content:"\f09a"
+}
+.fa-instagram::before{
+    content:"\f16d"
+}
+.fa-twitter::before{
+    content:"\f099"
+}
+.fa-snapchat::before{
+    content:"\f2ac"
+}
+.fa-phone::before{
+    content:"\f095"
+}
+.fa-map-marker::before{
+    content:"\f041"
+}
+.fa-heart::before{
+    content:"\f004"
+}
+.fa-star::before{
+    content:"\f005"
+}
+.fa-users::before{
+    content:"\f0c0"
+}
+.fa-wifi::before{
+    content:"\f1eb"
+}
+.fa-check-circle::before{
+    content:"\f058"
+}
+.fa-shopping-cart::before{
+    content:"\f07a"
+}
+.fa-arrow-right::before{
+    content:"\f061"
+}
+.fa-cutlery::before{
+    content:"\f0f5"
+}
+.fa-birthday-cake::before{
+    content:"\f1fd"
+}

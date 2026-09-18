@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bean & Bite | إنشاء حساب</title>
+
+    <link rel="stylesheet"
+          href="css/bootstrap.rtl.min.css">
+
+    <link rel="stylesheet"
+          href="css/vendor/fontawesome-local.css">
+
+    <link rel="stylesheet" href="css/vendor/toastify.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/vendor/modal-theme.css">
+
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/vendor/toastify.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/validation.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-dark cafe-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fa fa-coffee"></i>
+                Bean & Bite
+            </a>
+        </div>
+    </nav>
+</header>
+
+<main class="container form-container">
+
+    <div class="form-card">
+
+        <h1>إنشاء حساب جديد</h1>
+
+        <form id="registerForm" novalidate>
+
+            <div class="mb-3">
+                <label for="fullName">الاسم الكامل</label>
+
+                <input type="text"
+                       id="fullName"
+                       class="form-control"
+                       required
+                       minlength="3">
+
+                <div class="invalid-feedback">
+                    يجب إدخال الاسم بشكل صحيح.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="registerEmail">البريد الإلكتروني</label>
+
+                <input type="email"
+                       id="registerEmail"
+                       class="form-control"
+                       required>
+
+                <div class="invalid-feedback">
+                    أدخل بريدًا إلكترونيًا صحيحًا.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone">رقم الجوال</label>
+
+                <input type="tel"
+                       id="phone"
+                       class="form-control"
+                       pattern="[0-9]{9,12}"
+                       required>
+
+                <div class="invalid-feedback">
+                    أدخل رقم جوال صحيحًا.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="registerPassword">كلمة المرور</label>
+
+                <input type="password"
+                       id="registerPassword"
+                       class="form-control"
+                       minlength="8"
+                       required>
+
+                <div class="invalid-feedback">
+                    كلمة المرور يجب ألا تقل عن 8 أحرف.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="confirmPassword">تأكيد كلمة المرور</label>
+
+                <input type="password"
+                       id="confirmPassword"
+                       class="form-control"
+                       required>
+
+                <div class="invalid-feedback">
+                    كلمتا المرور غير متطابقتين.
+                </div>
+            </div>
+
+            <div class="form-check mb-3">
+                <input type="checkbox"
+                       id="terms"
+                       class="form-check-input"
+                       required>
+
+                <label for="terms" class="form-check-label">
+                    أوافق على الشروط والأحكام
+                </label>
+            </div>
+
+            <button type="submit" class="btn main-btn w-100">
+                إنشاء الحساب
+            </button>
+
+        </form>
+
+        <p class="form-footer">
+            لديك حساب؟
+            <a href="login.html">تسجيل الدخول</a>
+        </p>
+
+    </div>
+
+</main>
+
+<div id="toastBox"></div>
+
+
+</body>
+</html>

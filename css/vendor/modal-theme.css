@@ -1,0 +1,20 @@
+/* Bean & Bite Café - Brown Modal Theme */
+.bean-bite-modal .modal-content {
+    background: #6F4E37;
+    color: #fff;
+    border: 2px solid #4E3426;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.30);
+}
+.bean-bite-modal .modal-header { background: #5A3E2B; color: #fff; border-bottom: 1px solid rgba(255,255,255,.18); }
+.bean-bite-modal .modal-title { color: #fff; font-weight: 700; }
+.bean-bite-modal .modal-body { background: #6F4E37; color: #fff; }
+.bean-bite-modal .modal-footer { background: #5A3E2B; border-top: 1px solid rgba(255,255,255,.18); }
+.bean-bite-modal .btn-close { filter: brightness(0) invert(1); opacity: .9; }
+.bean-bite-modal .btn-close:hover { opacity: 1; }
+.bean-bite-modal .btn { border-radius: 8px; font-weight: 600; }
+.bean-bite-modal .btn-primary { background: #D7B899; border-color: #D7B899; color: #3E2723; }
+.bean-bite-modal .btn-primary:hover { background: #E4C9AD; border-color: #E4C9AD; color: #3E2723; }
+.bean-bite-modal a { color: #F5D6B3; }
+.bean-bite-modal a:hover { color: #fff; }

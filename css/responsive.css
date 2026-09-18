@@ -1,0 +1,69 @@
+@media (max-width: 992px) {
+
+    .features-grid,
+    .products-grid,
+    .menu-grid,
+    .offers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .auth-buttons {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .features-grid,
+    .products-grid,
+    .menu-grid,
+    .offers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-section {
+        min-height: 430px;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+    .hero-content h2 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+    }
+
+    .slider-image {
+        height: 230px;
+    }
+
+    .page-title {
+        font-size: 30px;
+    }
+
+    .form-card {
+        padding: 22px;
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+    }
+
+    .auth-buttons .btn {
+        width: 100%;
+    }
+}
+
+/* WOWSlider responsive behavior */
+#beanBiteWowSlider { width: 100%; }
+@media (max-width: 576px) {
+    #beanBiteWowSlider .ws_images { aspect-ratio: 4 / 3; }
+}
